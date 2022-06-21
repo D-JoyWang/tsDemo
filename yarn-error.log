@@ -1,0 +1,41 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\19609\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add typescript -D
+
+PATH: 
+  C:\Program Files\nodejs\node_modules\npm\node_modules\npm-lifecycle\node-gyp-bin;C:\Users\19609\Desktop\tstst\node_modules\.bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;D:\softWare\jdk\bin;C:\Program Files\TortoiseGit\bin;D:\softWare\xshell\;C:\Users\19609\AppData\Local\Microsoft\WindowsApps;;D:\Program Files\zip\;C:\Users\19609\AppData\Roaming\npm;C:\Users\19609\AppData\Local\Programs\Microsoft VS Code\bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.6.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\19609\Desktop\tstst\node_modules\deasync\bin\win32-x64-node-14\deasync.node'
+
+npm manifest: 
+  {
+    "name": "tstst",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "dev": "nodemon --watch src/ -e ts --exec ts-node ./src/index.ts",
+      "start": "parcel ./index.html"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "parcel-bundler": "^1.12.5"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
